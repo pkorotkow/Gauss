@@ -1,0 +1,3 @@
+RBMP bmp_image1.bmp
+GNU plot1
+BMP bmp_image1.bmp
