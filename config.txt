@@ -1,0 +1,10 @@
+Log_Server = ON
+Log_Server_filename = log_server.txt
+Log_Client = ON
+Log_Client_filename = log_client.txt
+Batch_pause = OFF
+Batch_file = ON
+Batch_filename = Batch120.txt
+Field_DEF = 120 100
+Gauss_DEF = 150 50 50 10 10
+Noize = 11
