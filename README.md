@@ -68,16 +68,16 @@ gcc test.c -o gaussgen.exe
 Пример содержимого:
 
 ```txt
-Log_Server = ON
-Log_Server_filename = log_server.txt
-Log_Client = ON
-Log_Client_filename = log_client.txt
-Batch_pause = OFF
-Batch_file = ON
-Batch_filename = Batch120.txt
-Field_DEF = 120 100
-Gauss_DEF = 150 50 50 10 10
-Noize = 11
+Log_Server = ON //Логирование на сервере
+Log_Server_filename = log_server.txt // Файл логирования сервера
+Log_Client = ON // Логирование на клиенте
+Log_Client_filename = log_client.txt // Файл логирования клиента
+Batch_pause = OFF // Пауза после каждой команды для отладки
+Batch_file = ON // Командный файл
+Batch_filename = Batch120.txt // Название командного файла
+Field_DEF = 120 100 // Стандартные размеры поля
+Gauss_DEF = 150 50 50 10 10 // Стандартный гауз для добавления
+Noize = 11 // Компоненты до какого размера не пропускать
 ```
 
 ---
